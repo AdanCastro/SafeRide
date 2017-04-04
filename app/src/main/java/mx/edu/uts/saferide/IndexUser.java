@@ -41,11 +41,12 @@ public class IndexUser extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
-/*
+
     public void PerfilUsuario(View view){
         Intent intent = new Intent(this, Perfil.class);
         startActivity(intent);
     }
+    /*
     public void Tarjeta (View view) {
         Intent act = new Intent(this, InfoTarjeta.class);
         startActivity(act);
