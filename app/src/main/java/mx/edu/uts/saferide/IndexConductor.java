@@ -20,12 +20,12 @@ public class IndexConductor extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
     }
-    /*
+
     public void PerfilConductor (View view) {
         Intent act = new Intent(this, PerfilC.class);
         startActivity(act);
     }
-
+/*
     public void PaquetesCondu   (View view) {
         Intent act = new Intent(this,ListaPaquetesConductor.class);
         startActivity(act);

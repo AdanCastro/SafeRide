@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_ver_foto_c"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mx.edu.uts.saferide.VerFotoC">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="400dp"
+            app:srcCompat="@mipmap/ic_launcher"
+            android:id="@+id/imgPerfilC"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:background="@drawable/subirfoto"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:id="@+id/button12"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:onClick="subirfotoCOnclick" />
+    </LinearLayout>
+</ScrollView>
+

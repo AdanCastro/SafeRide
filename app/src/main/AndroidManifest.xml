@@ -36,7 +36,9 @@
             android:label="@string/title_activity_index_conductor"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Perfil" />
-        <activity android:name=".VerFotoU"></activity>
+        <activity android:name=".VerFotoU" />
+        <activity android:name=".PerfilC" />
+        <activity android:name=".VerFotoC"></activity>
     </application>
 
 </manifest>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/activity_perfil_c"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    tools:context="mx.edu.uts.saferide.PerfilC">
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:rowCount="6"
+        android:columnCount="2"
+        android:layout_margin="@dimen/activity_horizontal_margin">
+
+        <TextView
+            android:layout_columnSpan="2"
+            android:text="@string/perfil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView32"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:textSize="24sp"
+            android:textColor="@android:color/black" />
+
+        <com.github.snowdream.android.widget.SmartImageView
+            android:layout_columnSpan="2"
+            android:layout_width="100dp"
+            android:layout_height="140dp"
+            android:id="@+id/img_conductor"
+            android:src="@drawable/img_carro"
+            android:adjustViewBounds="true"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/activity_vertical_margin"/>
+
+        <TextView
+            android:layout_row="2"
+            android:layout_column="0"
+            android:text="@string/nombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView31"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:textSize="22sp"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:layout_row="3"
+            android:layout_column="0"
+            android:text="@string/correo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView33"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:textSize="22sp"
+            android:textColor="@android:color/black"/>
+
+
+
+        <TextView
+            android:layout_row="4"
+            android:layout_column="0"
+            android:text="@string/ubicacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView34"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:textSize="22sp"
+            android:textColor="@android:color/black"/>
+
+
+        <TextView
+            android:layout_row="4"
+            android:layout_column="1"
+            android:text="@string/ubicacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lblUbiPC"
+            android:layout_gravity="start"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"/>
+
+        <Button
+            android:layout_columnSpan="2"
+            android:background="@drawable/editar"
+            android:layout_width="130dp"
+            android:layout_height="45dp"
+            android:id="@+id/btnPerfilC"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:onClick="abrirGaleriaC" />
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:orientation="horizontal">
+            <TextView
+                android:text="@string/nombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/lblNombrePC"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/activity_vertical_margin"
+                android:textSize="18sp"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+
+                android:text="@string/apellido"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:id="@+id/lblApellidoPC"
+                android:layout_margin="@dimen/activity_vertical_margin"
+                android:textColor="@android:color/black" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_row="3"
+            android:layout_column="1"
+            android:text="@string/correo"
+            android:layout_width="158dp"
+            android:layout_height="50dp"
+            android:id="@+id/lblCorreoPC"
+            android:layout_gravity="start"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"/>
+    </GridLayout>
+
+</ScrollView>
