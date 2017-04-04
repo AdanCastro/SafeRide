@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_index_admin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="mx.edu.uts.saferide.IndexAdmin"
+    tools:showIn="@layout/activity_index_admin">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:text="@string/bienvenido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView13"
+            android:gravity="center"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:textSize="30sp"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:background="@drawable/pagar"
+            android:layout_width="230dp"
+            android:layout_height="65dp"
+            android:id="@+id/button15"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:onClick="PagosAdmin"
+            />
+
+        <Button
+            android:background="@drawable/calificaciones"
+            android:layout_width="230dp"
+            android:layout_height="65dp"
+            android:id="@+id/button16"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:onClick="Calificaciones"/>
+
+        <Button
+            android:background="@drawable/estatus"
+            android:layout_width="230dp"
+            android:layout_height="65dp"
+            android:id="@+id/button17"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:onClick="StatusConductores"/>
+
+        <Button
+            android:background="@drawable/reportes"
+            android:layout_width="230dp"
+            android:layout_height="65dp"
+            android:id="@+id/button18"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:onClick="ReportesAdmin"/>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_registro_conductor"
+    android:background="@drawable/fondo"
+    tools:context="mx.edu.uts.saferide.RegistroConductor">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="@string/registro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:layout_gravity="center"
+            android:textSize="24sp"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:layout_width="230dp"
+            android:layout_height="40dp"
+            android:inputType="number"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:id="@+id/txtConCel"
+            android:hint="@string/celular" />
+
+        <EditText
+            android:layout_width="230dp"
+            android:layout_height="40dp"
+            android:inputType="textPersonName"
+            android:id="@+id/txtConNombre"
+            android:hint="@string/nombre"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/activity_vertical_margin"
+
+            />
+
+        <EditText
+            android:layout_width="230dp"
+            android:layout_height="40dp"
+            android:inputType="textPersonName"
+            android:id="@+id/txtConApellido"
+            android:hint="@string/apellido"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/activity_vertical_margin"
+
+            />
+
+        <EditText
+            android:layout_width="230dp"
+            android:layout_height="40dp"
+            android:inputType="textEmailAddress"
+            android:id="@+id/txtConCorreo"
+            android:hint="@string/correo"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/activity_vertical_margin"
+
+            />
+
+        <EditText
+            android:layout_width="230dp"
+            android:layout_height="40dp"
+            android:inputType="textPassword"
+            android:id="@+id/txtConContra"
+            android:hint="@string/contraseña"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/activity_vertical_margin"
+
+            />
+
+        <EditText
+            android:layout_width="230dp"
+            android:layout_height="40dp"
+            android:inputType="textPersonName"
+            android:id="@+id/txtConUbicacion"
+            android:hint="@string/ubicacion"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            />
+
+        <EditText
+            android:layout_width="230dp"
+            android:layout_height="40dp"
+            android:inputType="number"
+            android:id="@+id/txtConNumPasajeros"
+            android:hint="@string/numpasajeros"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/activity_vertical_margin"
+
+            />
+
+        <EditText
+            android:layout_width="230dp"
+            android:layout_height="40dp"
+            android:inputType="textPersonName"
+            android:id="@+id/txtConAuto"
+            android:hint="@string/automovil"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/activity_vertical_margin"/>
+
+        <EditText
+            android:layout_width="230dp"
+            android:layout_height="40dp"
+            android:inputType="textPersonName"
+            android:id="@+id/txtConPlaca"
+            android:hint="@string/placas"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/activity_vertical_margin"/>
+
+        <EditText
+            android:layout_width="230dp"
+            android:layout_height="40dp"
+            android:inputType="number"
+            android:id="@+id/txtConCLABE"
+            android:hint="@string/clabe"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/activity_vertical_margin"/>
+
+        <Button
+            android:background="@drawable/aceptar"
+            android:layout_width="130dp"
+            android:layout_height="45dp"
+            android:id="@+id/button5"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:onClick="registrarconduOnClick"
+            />
+
+    </LinearLayout>
+
+
+</ScrollView>

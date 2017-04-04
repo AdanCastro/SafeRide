@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_registro_usuario"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    tools:context="mx.edu.uts.saferide.RegistroUsuario">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="@string/bienvenido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:textSize="24sp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:layout_width="230dp"
+            android:layout_height="40dp"
+            android:inputType="number"
+            android:id="@+id/txtCel"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:hint="@string/celular" />
+
+        <EditText
+            android:layout_width="230dp"
+            android:layout_height="40dp"
+            android:inputType="textPersonName"
+            android:id="@+id/txtNombre"
+            android:hint="@string/nombre"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/activity_vertical_margin" />
+
+        <EditText
+            android:layout_width="230dp"
+            android:layout_height="40dp"
+            android:inputType="textPersonName"
+            android:id="@+id/txtApellido"
+            android:hint="@string/apellido"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/activity_vertical_margin" />
+
+        <EditText
+            android:layout_width="230dp"
+            android:layout_height="40dp"
+            android:inputType="textPersonName"
+            android:id="@+id/txtCorreo"
+            android:hint="@string/correo"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            />
+
+        <EditText
+            android:layout_width="230dp"
+            android:layout_height="40dp"
+            android:id="@+id/txtContra"
+            android:hint="@string/contraseña"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:layout_width="230dp"
+            android:layout_height="40dp"
+            android:inputType="textPersonName"
+            android:id="@+id/txtUbicacion"
+            android:hint="@string/ubicacion"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            />
+
+        <EditText
+            android:layout_width="230dp"
+            android:layout_height="40dp"
+            android:inputType="textPersonName"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:id="@+id/txtEscuela"
+            android:hint="@string/escuela" />
+
+        <Button
+            android:background="@drawable/aceptar"
+            android:layout_width="130dp"
+            android:layout_height="45dp"
+            android:id="@+id/button5"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:onClick="registrarUsuarioOnclick"
+            />
+
+    </LinearLayout>
+</ScrollView>

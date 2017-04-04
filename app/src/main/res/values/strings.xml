@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">SafeRide</string>
+    <string name="Conductor">Registrate como conductor</string>
+    <string name="Usuario">Registrate como usuario</string>
+    <string name="Login">Inicia sesión</string>
+    <string name="SubirFoto">Subir Foto</string>
+    <!-- LOGIN-->
+    <string name="Salir">Salir</string>
+    <string name="Bienvenido">Bienvenido</string>
+    <string name="User">Usuario</string>
+    <string name="Contra">Contraseña</string>
+    <string name="Entrar">Entrar</string>
+    <string name="Olvidaste">¿Olvidaste tu contraseña?</string>
+    <string name="Click">Click aquí.</string>
+
+    <string name="contrasenia">
+        Si has olvidado tu contraseña puedes usar esta página para solicitar una nuevo. Escribe tu correo
+        electrónico y luego da click en enviar.
+
+    Te enviaremos un e-mail a tu cuenta de correo electrónico con la nueva contraseña siempre y cuando tu correo este registrado.
+    </string>
+    <string name="recuperar">Recuperar contraseña.</string>
+    <string name="registro">Registro</string>
+    <string name="celular">Celular</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="correo">Correo</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="ubicacion">Ubicación</string>
+    <string name="numpasajeros">Num. de pasajeros</string>
+    <string name="automovil">Automóvil</string>
+    <string name="placas">Placas</string>
+    <string name="clabe">CLABE</string>
+    <string name="escuela">Escuela</string>
+    <string name="bienvenido">Bienvenido</string>
+    <string name="olvidaste">¿Olvidaste tu constraseña?</string>
+    <string name="perfil">Perfil</string>
+    <string name="infopago">Información de pago</string>
+    <string name="numtarjeta">Número de tarjeta</string>
+    <string name="credito">Credito</string>
+    <string name="debito">Debito</string>
+    <string name="saferido">SafeRide</string>
+    <string name="fechav">Fecha de vencimiento</string>
+    <string name="mm">MM</string>
+    <string name="yy">YY</string>
+    <string name="slash">/</string>
+    <string name="codigo">Código de seguridad</string>
+    <string name="reportar">Reportar</string>
+    <string name="reporte">Reporte</string>
+    <string name="capacidad">Capacidad:</string>
+    <string name="pasajeros">Num. de pasajeros</string>
+    <string name="conductorrepo">Conductor reportado</string>
+    <string name="fechai">Fecha inicio:</string>
+    <string name="fechaf">Fecha final:</string>
+    <string name="numpaquete">Número de paquete</string>
+
+    <string name="meses">00</string>
+    <string name="anio">0000</string>
+    <string-array name="meses_array">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="anios_array">
+        <item>2017</item>
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+        <item>2021</item>
+        <item>2022</item>
+        <item>2023</item>
+        <item>2024</item>
+        <item>2025</item>
+        <item>2026</item>
+        <item>2027</item>
+        <item>2028</item>
+        <item>2029</item>
+        <item>2030</item>
+    </string-array>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_index_admin">IndexAdmin</string>
+    <string name="title_activity_index_user">IndexUser</string>
+    <string name="title_activity_index_conductor">IndexConductor</string>
+</resources>

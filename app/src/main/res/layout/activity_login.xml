@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:id="@+id/activity_login"
+    tools:context="mx.edu.uts.saferide.Login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+        <TextView
+            android:text="@string/bienvenido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:layout_gravity="center"
+            android:textColor="#0055EE"
+            android:textSize="30sp"
+            android:textStyle="normal|bold" />
+
+        <EditText
+            android:layout_width="230dp"
+            android:layout_height="40dp"
+            android:inputType="textPersonName"
+            android:id="@+id/txtLogCorreo"
+            android:hint="@string/correo"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/activity_vertical_margin" />
+
+        <EditText
+            android:layout_width="230dp"
+            android:layout_height="40dp"
+            android:id="@+id/txtLogContra"
+
+            android:hint="@string/contraseña"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:inputType="textPassword" />
+
+        <Button
+            android:background="@drawable/ingresar"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:id="@+id/button7"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:onClick="InicioSesion"/>
+
+        <TextView
+            android:text="@string/olvidaste"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:clickable="true"
+            android:textColor="#0000FF"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/activity_vertical_margin"/>
+    </LinearLayout>
+</ScrollView>
+
