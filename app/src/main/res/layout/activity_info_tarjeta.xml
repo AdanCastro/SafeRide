@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_info_tarjeta"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    tools:context="mx.edu.uts.saferide.InfoTarjeta">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/activity_vertical_margin">
+
+        <TextView
+            android:text="@string/infopago"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView14"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/txtNumTarjeta"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:layout_gravity="center"
+            android:hint="@string/numtarjeta" />
+
+
+        <RadioGroup
+            android:id="@+id/rgTarjeta"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:text="@string/credito"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rbCredito"
+                android:layout_margin="@dimen/activity_horizontal_margin" />
+
+            <RadioButton
+                android:text="@string/debito"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rbDebito"
+                android:layout_margin="@dimen/activity_horizontal_margin" />
+
+            <RadioButton
+                android:text="@string/saferido"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:id="@+id/rbSafe" />
+        </RadioGroup>
+
+
+        <TextView
+            android:text="@string/fechav"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView16"
+            android:textSize="18sp"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:textColor="@android:color/black" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1">
+
+            <Spinner
+                android:layout_width="65dp"
+                android:layout_height="50dp"
+                android:id="@+id/dpMes"
+                android:entries="@array/meses_array"
+                android:prompt="@string/meses"
+                android:layout_weight="0.18"
+                style="@style/spinnerItemStyle"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:text="@string/slash"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView17"
+                android:layout_weight="0.00"
+                android:textSize="30sp"
+                android:textColor="@android:color/black"
+                android:layout_margin="@dimen/activity_vertical_margin"
+                android:layout_gravity="center"/>
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/dpYear"
+                android:layout_weight="0.18"
+                android:entries="@array/anios_array"
+                android:prompt="@string/anio"
+                style="@style/spinnerItemStyle"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/txtCodigo"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:layout_gravity="center"
+            android:hint="@string/codigo" />
+
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:id="@+id/btnaceptar"
+            android:background="@drawable/aceptar"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:layout_gravity="center"
+            android:onClick="registrarTarjetaOnClick"/>
+    </LinearLayout>
+
+</ScrollView>
+

@@ -38,7 +38,10 @@
         <activity android:name=".Perfil" />
         <activity android:name=".VerFotoU" />
         <activity android:name=".PerfilC" />
-        <activity android:name=".VerFotoC"></activity>
+        <activity android:name=".VerFotoC" />
+        <activity android:name=".InfoConductor" />
+        <activity android:name=".ReportesUsuario" />
+        <activity android:name=".InfoTarjeta"></activity>
     </application>
 
 </manifest>
